@@ -7,8 +7,8 @@ import MyButton from '../utils/MyButton';
 
 class Discount extends Component {
     state = {
-        discountStart:0;
-        discountEnd: 30;
+        discountStart:0,
+        discountEnd: 30
     }
 //  Check with Genghiz about the next line
     percentage = () => {
@@ -47,7 +47,7 @@ class Discount extends Component {
                             <MyButton
                                 text="Purchase tickets"
                                 bck="#ffa800"
-                                color="ffffff"
+                                color="#ffffff"
                                 link="https://duckduckgo.com"
                                 />
                         </div>
